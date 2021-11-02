@@ -9,8 +9,305 @@ body {
 	list-style: none;
 }
 
+/**********MOBILE************/
+@media screen and (min-width: 320px)  and (max-width: 479px){
+    .logo {
+        margin-right: 20px;
+    }
+    .menu-div {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    }
+    .menu {
+        display: none;
+        margin-right: -23px;
+      }
+      .menu-buttom {
+        display: none;
+      }
+      .menu-img {
+          position: absolute;
+          text-align: center;
+          margin-top: 230px;
+          margin-left: 50px;
+      }
+      .img {
+          position: absolute;
+         height: 100%;
+      }
+      .menu-h2 {
+          color: #D67E35;
+          font-size: 30px;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+      }
+      .menu-h1 {
+          color: #D67E35;
+          font-size: 40px;
+          margin-top: -20px;
+      }
+      .texy {
+          font-size: 18px;
+          color:  #fff;
+          margin-top: -20px;
+          font-weight: 300;
+      }
+      .botton {
+          width: 137px;
+          height: 47px;
+          background: #FF7400;
+          border: none;
+          margin-top: 20px;
+      }
+      .botton-p3 {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 700;
+      }
+      
+      /*ЕДА*/
+      .yt {
+       margin-top: 35px;
+      }
+      .eda-div {
+         position: relative;
+        padding-top: 800px;
+      }
+      .box-ul {
+          justify-content: center;
+          margin-left: -50px;
+          margin-top: -200px;
+      }
+      .box {
+          width: 330px;
+          height: 334px;
+          background: #fff;
+          box-shadow:  10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          margin-left: 34px;
+          margin-bottom: 16px;
+      }
+      .text-box {
+          font-size: 26px;
+          color: #2C2C2C;
+      }
+      .span-box {
+          color: #BC9060;
+      }
+      .text-box2 {
+          font-size: 20px;
+          color: #2C2C2C;
+      }
+      /*END ЕДА*/
+      
+      /*НАША ИСТОРИЯ*/
+      .history-div {
+          align-items: center;
+          justify-content: center;
+          margin-top: 110px;
+      }
+      .history-div_2 {
+          text-align: center;
+      }
+      .history-ul {
+          display: flex;
+          text-align: center;
+      }
+      .my-history {
+          font-size: 40px;
+          color: #2C2C2C;
+      }
+      .history-text {
+          font-size: 16px;
+          text-align: center;
+          font-style: normal;
+         margin-left: 15px;
+         margin-right: 15px;
+      }
+      .history-p {
+          font-size: 40px;
+      }
+      .history-p_2 {
+          font-size: 20px;
+          color: #000;
+      }
+      .history-li {
+          margin-right: 50px;
+      }
+      .img-history {
+          width: 290px;
+          height: 257px;
+          margin-left: 40px;
+          margin-top: 10px;
+      }
+      /*END НАША ИСТОРИЯ*/
+      
+      /*ЗАКАЗ СТОЛОВ*/
+      .stol {
+      margin-top: 122px;
+      }
+      .stol-div {
+          position: absolute;
+          align-items: center;
+         margin-top: 36px;
+      }
+      .stol-div_2 {
+          text-align: center;
+          margin-top: -30px;
+      }
+      .stol-h3 {
+         font-size: 30px;
+         color: #BC9060;
+         margin-left: 15px;
+         margin-right: 15px;
+      }
+      .botton-stol {
+          width: 210px;
+          height: 60px;
+          background: #FF7400;
+          border: none;
+          margin-top: 10px;
+          cursor: pointer;
+          transition: 0.4s;
+          margin-left: 80px;
+      }
+      .botton-stol:hover {
+          background: #b85809;
+      }
+      .botton-link {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 700; 
+      }
+      .stol-eda {
+          color: #fff;
+          font-size: 24px;
+          margin-top: -10px;
+          font-weight: 700;
+          margin-left: 20px;
+          margin-right: 20px;
+      }
+      .img-stol {
+          width: 100%;
+          height: 357px;
+      }
+      /*END ЗАКАЗ СТОЛОВ*/
+
+      /*НАШИ БЛЮДА*/
+* {
+    box-sizing: border-box
+}
+.we{
+    display: none;
+}
+/*END НАШИ БЛЮДА*/
+
+/*НАШЕ МЕНЮ*/
+.nasha-img2 {
+    position: absolute;
+    min-height: 1900px;
+}
+.nashe-div {
+    margin-left: -60px;
+    position: relative;
+    margin-top: -10px;
+    padding-top: 25px;
+}
+.nashe-h2 {
+    font-size: 54px;
+    color: #fff;
+    text-align: center;
+    margin-left: 50px;
+}
+.nashe-ul {
+    justify-content: center;
+}
+.nashe-li {
+    width: 350px;
+    height: 530px;
+    background: #fff;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.nashe-img {
+    margin-top: 60px;
+}
+.nashe-p {
+    font-size: 26px;
+    color: #000;
+}
+.nashe-p_2 {
+    font-size: 16px;
+    color: #000;
+}
+.nashe-button {
+   width: 220px; 
+   height: 50px;
+   background: #D67E34;
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+ transition: 0.4s;
+}
+.nashe-button:hover {
+    background: #b85809;
+}
+.nashe-button_p {
+    font-size: 16px;
+    color: #fff;
+}
+/*END НАШЕ МЕНЮ*/
+
+/*ПОВАРА*/
+.posetitel-div2 {
+    margin-top: 200px;
+   margin-left: 7px;
+}
+.povar-h2 {
+   font-size: 54px; 
+   color: #000;
+   text-align: center;
+   position: relative;
+}
+.povar-ul {
+    margin-left: -65px;
+   justify-content: center;
+   margin-top: -50px;
+}
+.povar-li {
+    padding-left: 30px;
+    margin-top: -30px;
+}
+/*END ПОВАРА*/
+
+/*FOOTER*/
+.footer {
+    background: rgb(77, 74, 74);
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-2 {
+    padding-top: 20px;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.315);
+    text-align: center;
+}
+/*END FOOTER*/
+}
+/**********END MOBILE************/
 
 
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
 .logo {
     margin-right: 150px;
 }
@@ -48,6 +345,9 @@ align-items: center;
 }
 .img {
     position: absolute;
+}
+.img-yu {
+    display: none;
 }
 .menu-h2 {
     color: #D67E35;
@@ -167,13 +467,20 @@ margin-top: 122px;
 .botton-stol {
     width: 210px;
     height: 60px;
-    color: #fff;
     background: #FF7400;
     border: none;
-    font-size: 20px;
-    font-weight: 700; 
   margin-left: 120px;
     margin-top: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.botton-stol:hover {
+    background: #b85809;
+}
+.botton-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700; 
 }
 .stol-eda {
     color: #fff;
@@ -343,7 +650,7 @@ img {
 }
 /*END НАШЕ МЕНЮ*/
 
-/*ПОСЕТИТЕЛЬ*/
+/*ПОВАРА*/
 .posetitel-div2 {
     margin-top: 200px;
 }
@@ -362,7 +669,7 @@ img {
 .povar-li {
     padding-left: 30px;
 }
-/*END ПОСЕТИТЕЛЬ*/
+/*END ПОВАРА*/
 
 /*FOOTER*/
 .footer {
@@ -380,3 +687,4 @@ img {
     text-align: center;
 }
 /*END FOOTER*/
+}
