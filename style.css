@@ -34,8 +34,11 @@ body {
           margin-left: 50px;
       }
       .img {
-          position: absolute;
-         height: 100%;
+          display: none;
+      }
+      .img-yu {
+        position: absolute;
+        height: 100%;
       }
       .menu-h2 {
           color: #D67E35;
