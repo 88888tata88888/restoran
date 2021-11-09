@@ -131,4 +131,26 @@ $modal = function (options) {
     // отобразим модальное окно
     modal.show();
   });
+  var modal = $modal(1);
+  // при клике по кнопке #show-modal
+  document.querySelector('#show-modal1').addEventListener('click', function (e) {
+    // отобразим модальное окно
+    modal.show();
+  });
 })();
+var modal = $modal(2);
+// при клике по кнопке #show-modal
+document.querySelector('#show-modal2').addEventListener('click', function (e) {
+  // отобразим модальное окно
+  modal.show();
+});
+var modal = $modal(3);
+// при клике по кнопке #show-modal
+document.querySelector('#show-modal3').addEventListener('click', function (e) {
+  // отобразим модальное окно
+  modal.show();
+});
+
+
+
+
